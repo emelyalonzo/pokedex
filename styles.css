@@ -1,0 +1,63 @@
+body {
+  background-image:  linear-gradient(30deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(150deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(30deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(150deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(60deg, rgba(255,133,77,0.5) 25%, transparent 25.5%, transparent 75%, rgba(255,133,77,0.5) 75%, rgba(255,133,77,0.5)), linear-gradient(60deg, rgba(255,133,77,0.5) 25%, transparent 25.5%, transparent 75%, rgba(255,133,77,0.5) 75%, rgba(255,133,77,0.5));
+  background-size: 120px 210px;
+  background-position: 0 0, 0 0, 60px 105px, 60px 105px, 0 0, 60px 105px;
+  background-color: #ffaf47;
+    margin: 0;
+    font-family: rubik;
+    color: white;
+  }
+  .container {
+    padding: 40px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 54px;
+  }
+  .card {
+    list-style: none;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 9px 9px 15px -6px rgba(17, 0, 255, 0.527);
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .card-number {
+      font-size: 1.2rem;
+      color:orangered;
+      font-weight: 600;
+  }
+  .card-title {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  .card-subtitle {
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(182, 145, 23);
+    margin-top: 5px;
+  }
+  .card-image {
+    height: 180px;
+  }
+  #pokedex {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+  }
+  #title {
+      height: auto;
+      width: 25%;
+      margin: 0 37%;
+  }
+
+  
