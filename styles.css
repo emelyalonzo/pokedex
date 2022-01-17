@@ -1,8 +1,8 @@
 body {
-  background-image:  linear-gradient(30deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(150deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(30deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(150deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(60deg, rgba(255,133,77,0.5) 25%, transparent 25.5%, transparent 75%, rgba(255,133,77,0.5) 75%, rgba(255,133,77,0.5)), linear-gradient(60deg, rgba(255,133,77,0.5) 25%, transparent 25.5%, transparent 75%, rgba(255,133,77,0.5) 75%, rgba(255,133,77,0.5));
-  background-size: 120px 210px;
-  background-position: 0 0, 0 0, 60px 105px, 60px 105px, 0 0, 60px 105px;
-  background-color: #ffaf47;
+    background-image:  linear-gradient(30deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(150deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(30deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(150deg, #ff854d 12%, transparent 12.5%, transparent 87%, #ff854d 87.5%, #ff854d), linear-gradient(60deg, rgba(255,133,77,0.5) 25%, transparent 25.5%, transparent 75%, rgba(255,133,77,0.5) 75%, rgba(255,133,77,0.5)), linear-gradient(60deg, rgba(255,133,77,0.5) 25%, transparent 25.5%, transparent 75%, rgba(255,133,77,0.5) 75%, rgba(255,133,77,0.5));
+    background-size: 120px 210px;
+    background-position: 0 0, 0 0, 60px 105px, 60px 105px, 0 0, 60px 105px;
+    background-color: #ffaf47;
     margin: 0;
     font-family: rubik;
     color: white;
@@ -15,6 +15,30 @@ body {
     text-transform: capitalize;
     text-align: center;
     font-size: 54px;
+  }
+  .container__btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .container__btns button {
+    margin-top: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(68, 68, 68);
+    border: none;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .container__btns button:hover {
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.089);
   }
   .card {
     list-style: none;
@@ -56,8 +80,10 @@ body {
   }
   #title {
       height: auto;
-      width: 25%;
-      margin: 0 37%;
+      width: 300px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
   }
 
   
